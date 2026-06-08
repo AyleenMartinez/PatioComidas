@@ -2,19 +2,19 @@
 
 namespace PatioComidas.PatronesEstructurales
 {
-    // --- Clase Incompatible (Antigua) ---
+    // Clase Incompatible (Antigua)
     public class DispensadorAntiguo
     {
         public void AccionarValvulaMecanica() => Console.WriteLine("CLACK! Válvula mecánica accionada. Bebida sirviéndose (Sistema Antiguo).");
     }
 
-    // --- Interfaz Esperada (Moderna) ---
+    // Interfaz Esperada (Moderna)
     public interface IDispensadorModerno
     {
         void ServirBebida();
     }
 
-    // --- Adaptador ---
+    // Adaptador
     public class AdaptadorDispensador : IDispensadorModerno
     {
         private readonly DispensadorAntiguo _dispensadorAntiguo;

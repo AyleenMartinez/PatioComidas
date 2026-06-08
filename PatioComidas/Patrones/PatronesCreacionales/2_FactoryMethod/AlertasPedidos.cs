@@ -2,7 +2,7 @@
 
 namespace PatioComidas.PatronesCreacionales
 {
-    // --- Interfaz y Productos Concretos ---
+    // Interfaz y Productos Concretos
     public interface INotificadorPedido
     {
         void NotificarListo(int numeroPedido);
@@ -18,7 +18,7 @@ namespace PatioComidas.PatronesCreacionales
         public void NotificarListo(int numeroPedido) => Console.WriteLine($"[SMS] Tu pedido {numeroPedido} está listo para llevar.");
     }
 
-    // --- Creador Abstracto y Creadores Concretos ---
+    // Creador Abstracto y Creadores Concretos
     public abstract class DespachadorPedidos
     {
         protected abstract INotificadorPedido CrearNotificador();

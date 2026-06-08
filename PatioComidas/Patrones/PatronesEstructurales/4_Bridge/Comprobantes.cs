@@ -2,7 +2,7 @@
 
 namespace PatioComidas.PatronesEstructurales
 {
-    // --- Implementación (Canal de Salida) ---
+    // Implementación (Canal de Salida)
     public interface ICanalSalida
     {
         void EnviarContenido(string texto);
@@ -18,7 +18,7 @@ namespace PatioComidas.PatronesEstructurales
         public void EnviarContenido(string texto) => Console.WriteLine($"[CORREO ELECTRÓNICO] {texto}");
     }
 
-    // --- Abstracción (Documentos) ---
+    // Abstracción (Documentos)
     public abstract class DocumentoPatio
     {
         protected ICanalSalida _canal;

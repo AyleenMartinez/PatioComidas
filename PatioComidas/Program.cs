@@ -2,8 +2,6 @@
 using PatioComidas.PatronesCreacionales;
 using PatioComidas.PatronesEstructurales;
 
-// Paso 6: Orquestar el Sistema
-
 // 1. Abrir Caja (Singleton)
 var caja = CajaCentral.ObtenerInstancia();
 caja.IngresosTotales += 50000m;
