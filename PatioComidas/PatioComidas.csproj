@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\PatioComidas.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\PatioComidas.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\PatioComidas.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net10.0\" />
+    <Folder Include="obj\Debug\net10.0\refint\" />
+    <Folder Include="obj\Debug\net10.0\ref\" />
+    <Folder Include="Patrones\2_FactoryMethod\1_Creador\" />
+    <Folder Include="Patrones\2_FactoryMethod\2_Creadores\" />
+    <Folder Include="Patrones\2_FactoryMethod\3_Interface\" />
+    <Folder Include="Patrones\2_FactoryMethod\4_Producto\" />
+    <Folder Include="Patrones\3_AbstractFactory\1_Fabrica\" />
+    <Folder Include="Patrones\3_AbstractFactory\2-Familia\" />
+    <Folder Include="Patrones\3_AbstractFactory\3_Productos\" />
+    <Folder Include="Patrones\4_Bridge\1_Implementacion\" />
+    <Folder Include="Patrones\4_Bridge\2_Abastraccion\" />
+    <Folder Include="Patrones\5_Adapter\1_Interfaz\" />
+    <Folder Include="Patrones\5_Adapter\2_Adaptee\" />
+    <Folder Include="Patrones\5_Adapter\3_Adaptador\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net10.0\PatioComidas.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\PatioComidas.assets.cache" />
+    <None Include="obj\Debug\net10.0\PatioComidas.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\PatioComidas.csproj.nuget.g.props" />
+    <None Include="obj\PatioComidas.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
